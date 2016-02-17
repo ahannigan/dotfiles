@@ -1,0 +1,18 @@
+# ls
+alias ls='ls -Gp'
+alias ll='ls -ohGF'
+alias l='ls -lGa'
+
+# Fat finger protection
+alias bi='vim'
+alias bim='vim'
+
+# Docker
+alias drmiunused='docker rmi $(docker images -q -f dangling=true)'
+alias drmstopped='docker rm $(docker ps -a -q)'
+alias drmi='docker rmi'
+
+# Other Commands
+alias untar='tar -xvf'
+alias mkdir='mkdir -p'
+

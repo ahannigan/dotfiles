@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/ahannigan/.bash_profile'
+let g:netrw_dirhist_2='/Users/ahannigan/.gitconfig'
+let g:netrw_dirhist_3='/Users/ahannigan/.vim'
+let g:netrw_dirhist_4='/Users/ahannigan/dev/docker-runscope-agent/confd/templates'
+let g:netrw_dirhist_5='/Users/ahannigan/dev/acme/definitions'
