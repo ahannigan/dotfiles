@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-declare -a arr=(".aliases" ".bash_profile" ".bash_prompt" ".exports" ".gemrc" ".git-completion.bash" ".gitconfig" ".liquidprompt" ".maven-completion.bash" ".vim" ".vimrc")
+declare -a arr=(".aliases" ".bash_profile" ".bash_prompt" ".docker-completion.bash" ".docker-compose-completion.bash" ".docker-machine-completion.bash" ".docker-machine-wrapper.bash" ".exports" ".gemrc" ".git-completion.bash" ".gitconfig" ".liquidprompt" ".maven-completion.bash" ".vim" ".vimrc")
+
 dest_dir=~
 cwd=$(pwd)
 

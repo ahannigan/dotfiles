@@ -21,6 +21,12 @@ fi
 [[ -f "$HOME/.git-completion.bash" ]] && source $HOME/.git-completion.bash
 # maven completion
 [[ -f "$HOME/.maven-completion.bash" ]] && source $HOME/.maven-completion.bash
+# docker completion
+[[ -f "$HOME/.docker-completion.bash" ]] && source $HOME/.docker-completion.bash
+# docker-compose completion
+[[ -f "$HOME/.docker-compose-completion.bash" ]] && source $HOME/.docker-compose-completion.bash
+# docker-machine completion
+[[ -f "$HOME/.docker-machine-completion.bash" ]] && source $HOME/.docker-machine-completion.bash
 
 # init nodenv
 if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
